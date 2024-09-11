@@ -9,6 +9,8 @@ Project Hygieia is a ML/DL-based time series forecasting project. This project a
 
 ![Overview](./images/en/overview_en.png)
 
+> For Japanese version, please refer to: [Web page](./README.jp.md)
+
 ## Data Processing 
 
 The data collected by the web crawler will be cleaned and filtered with designed processes. These processes include continuity tests, stationarity tests, outlier removal, and the filter driven by domain know-how. The processed data will be transformed and normalized for the specific model structure. For the Machine Learning Model, we generate a couple of lags as the features. On the other hand, we implement a custom data loader for the training of the Deep Learning Model.
